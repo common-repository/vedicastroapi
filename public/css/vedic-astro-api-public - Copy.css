@@ -1,0 +1,2080 @@
+/** * All of the CSS for your public-facing functionality should be * included in this file. */
+ html {
+     scroll-behavior: smooth;
+}
+ body {
+     font-family: 'Poppins', sans-serif;
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+}
+ * {
+     font-family: 'Poppins', sans-serif !important;
+     box-sizing: border-box;
+}
+ .choose_services_col_box {
+     box-shadow: 0px 12px 24px -12px rgba(38, 60, 101, 0.35);
+     border-radius: 8px;
+}
+ .astro_logo_content {
+}
+ .choose_services_row {
+     width: 100%;
+     max-width: 100%;
+     max-width: 100%;
+     display: block;
+}
+ .astro_container {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+ .astro_container_fluid {
+     max-width: 100%;
+     padding: 0px 30px;
+}
+ .img_fluid {
+     max-width: 100%;
+     height: auto;
+}
+ .choose_services_col_box a, .zodics_sign_tab a, .astro_content_menu li a, .astro_content_sub_tab li a, .chart_content_menu li a {
+     text-decoration: none;
+}
+ .choose_services_title {margin-bottom: 30px;}
+ .choose_services_col-3, .astro_col-3 {
+     width: 25%;
+     display: inline-block;
+}
+ section.choose_services .choose_services_row .choose_services_col-3:nth-child(6) .astro_logo img{
+     width: 78px;
+     margin: 0px auto;
+     height: 78px;
+}
+ .choose_services.kundli_sec .lagan_chart_birth.mahadashas_antradashas .lagan_chart_birth_table table.lagan_birth_table_data.mahadasha_table_data {
+     margin-bottom: 0px !important;
+}
+/*------------------|| Choose Services End ||---------------------*/
+/*------------------|| Horoscope Start ||---------------------*/
+ .astro_col-1 {
+     width: 8.33333333%;
+     display: inline-block;
+}
+ .zodics_sign_tab {
+     box-shadow: 0px 4px 20px -4px rgba(0, 0, 0, 0.25);
+     border-radius: 20px;
+}
+ .zodics_icon img {
+     max-width: 75%;
+     width: 53px;
+     height: 54px;
+}
+ .zodics_icon {
+     height: 55px;
+     padding: 0px;
+}
+ .zodics_content {
+     padding: 0px 5px 5px;
+}
+ .mlr-5 {
+     margin: 0px 5px;
+}
+ .zodic_sign .choose_services_row {
+}
+ .zodic_sign {
+}
+ .zodic_sign .zodics_sign_tab a .zodics_icon img:first-child, .zodic_sign .zodics_sign_tab.active a .zodics_icon img:last-child,.aquarius_content {
+     display: inline-block;
+}
+ .zodic_sign .zodics_sign_tab a .zodics_icon img:last-child, .zodic_sign .zodics_sign_tab.active a .zodics_icon img:first-child {
+     display: none;
+}
+ .zodic_sign .zodics_sign_tab.active {
+     background-color: var(--blue);
+}
+ .zodic_sign .zodics_sign_tab.active .zodics_content p {
+     color: var(--white);
+}
+ .astro_content_menu li, .astro_content_sub_tab li, .chart_content_menu li {
+     list-style: none;
+     display: inline-block;
+}
+ .astro_content_menu li a {
+     padding: 8px 16px;
+     border: 1px solid rgb(247, 247, 247);
+     background-color: rgb(247, 247, 247);
+     display: block;
+}
+ .astro_content_menu li.active a {
+     border: 1px solid var(--blue);
+     background-color: rgba(255, 255, 255, 0.5);
+     color: var(--blue);
+     border-radius: 4px;
+}
+ .astro_content_sub_tab {
+     padding: 15px 0px 0px 20px;
+}
+ .astro_content_sub_tab .astro_content_sub_menu li a {
+     padding: 8px 16px;
+     border: 1px solid rgb(226, 226, 226);
+     background-color: rgb(226, 226, 226);
+     color: var(--grey);
+}
+ .astro_content_sub_tab .astro_content_sub_menu li.active a {
+     padding: 8px 16px;
+     border: 1px solid var(--grey50);
+     background-color: var(--grey50);
+     color: var(--white);
+}
+ .astro_content_sub_tab, .maching_tab_data, .maching_main_tab_all_chart {
+     display: none;
+}
+ .display_none {
+     display: none !important;
+}
+ .display_block {
+     display: block !important;
+}
+ .astro_col-6, .choose_services_col-6 {
+     /* width: 50%; */
+     /* display: inline-block; */
+}
+ .daily_horoscope_box_main {
+     border: 1px solid var(--greyce);
+     border-radius: 50px;
+}
+ .daily_horoscope_box {
+     padding: 16px 14px;
+}
+ .daily_horoscope_circle {
+     background-image: url(../images/horoscope/76.jpg);
+     height: 100%;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 50%;
+     width: 15%;
+     float: left;
+     display: inline-block;
+}
+ .choose_services_row .astro_col-6:nth-child(2) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/55.png);
+}
+ .choose_services_row .astro_col-6:nth-child(3) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/org.png);
+}
+ .choose_services_row .astro_col-6:nth-child(4) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/blue.png);
+}
+ .choose_services_row .astro_col-6:nth-child(5) .daily_horoscope_circle, .choose_services_row .astro_col-6:nth-child(7) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/org1.png);
+}
+ .choose_services_row .astro_col-6:nth-child(6) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/blue1.png);
+}
+ .choose_services_row .astro_col-6:nth-child(8) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/pink.png);
+}
+ .choose_services_row .astro_col-6:nth-child(9) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/green.png);
+}
+ .choose_services_row .astro_col-6:nth-child(10) .daily_horoscope_circle {
+     background-image: url(../images/horoscope/pink2.png);
+}
+ .daily_horoscope_circle_content {
+     padding: 28px 0px;
+     text-align: center;
+     margin: auto;
+}
+ .display_flex {
+     display: flex;
+}
+ .daily_content_right {
+     float: right;
+     display: inline-block;
+     width: 80%;
+}
+ .daily_horoscope .astro_col-6 {
+     padding: 0px 0px 12px 0px;
+}
+ .astro_content_sub_tab_main, .horoscope_main_tab {
+     display: none;
+}
+/*------------------|| Horoscope End ||---------------------*/
+/*------------------|| Kundli Start ||---------------------*/
+ .astro_col-5 {
+}
+ .kundli_vedic_group {
+}
+ .kundli_vedic_group label, .kundli_vedic_group input,.kundli_vedic_group select {
+     max-width: 100%;
+     width: 100%;
+     display: block;
+     box-sizing: border-box;
+}
+ .kundli_vedic_group input, .kundli_vedic_group select {
+     height: 40px;
+     outline: none;
+     border: 1px solid var(--greyda);
+     border-radius: 4px;
+     padding: 0.375rem 0.75rem;
+     font-size: 16px;
+}
+ .kundli_vedic_login_form {
+     padding: 20px;
+}
+ .kundli_vedic_form .choose_services_row .astro_col-6:nth-child(odd) .kundli_vedic_group {
+     margin-right: 30px;
+}
+ .kundli_vedic_group_submit input {
+     background: var(--blue);
+     border-radius: 4px;
+     color: var(--white);
+     height: 36px;
+     outline: none !important;
+     box-shadow: none !important;
+     border: none;
+     font-size: 16px;
+     padding: 8px 12px;
+     cursor: pointer;
+}
+ .kundli_vedic_group_submit {
+     text-align: right;
+}
+ section.kundli_sec .choose_services_row .astro_col-5:nth-child(even),.numerology_vedic .choose_services_row .astro_col-5:nth-child(2) {
+}
+ .kundli_lagan_box {
+     height: 100%;
+     display: block;
+     width: 100%;
+}
+ .kundli_lagan_box_content h6 {
+     margin: 23px 0px 20px;
+}
+ .kundli_lagan_chart .choose_services_col-3 .kundli_lagan_box.bdr-black, .kundli_lagan_chart .choose_services_col-6 .kundli_lagan_box.bdr-black {
+     border-collapse: collapse;
+     display: table;
+}
+ .kundli_lagan_chart .choose_services_row .kundli_lagan_box_content h6 span {
+     margin: 0px 2px;
+}
+ .kundli_lagan_box_content,.Numerology_count_number .Numerology_count_number_box .daily_horoscope_circle_content span {
+     display: block;
+}
+ .kundli_lagan_chart .choose_services_row {
+     margin-top: -1px;
+}
+ .kundli_lagan_chart .choose_services_row:first-child {
+     margin-top: 0px;
+}
+ .kundli_lagan_chart .choose_services_row:nth-child(2) .choose_services_col-3:nth-child(2), .kundli_lagan_chart .choose_services_row:nth-child(3) .choose_services_col-3:nth-child(2) {
+     float: right;
+}
+ .text_center.kundli_lagan_box_title {
+     margin-top: 8px;
+     position: absolute;
+     bottom: 0px;
+     left: 32.33%;
+}
+ table.lagan_birth_table_data {
+     max-width: 100%;
+     width: 100%;
+     border: 1px solid var(--grey98);
+     border-radius: 4px 0px 0px 0px;
+     border-collapse: collapse;
+}
+ table.lagan_birth_table_data tbody tr td, table.lagan_birth_table_data thead tr th {
+     text-align: left;
+     padding: 6px 12px;
+}
+ .lagan_chart_tabs_menu {
+     margin: 37px 0px 37px;
+}
+ .kundli_lagan_chart.kundli_lagan_chart_part .choose_services_col-3 .kundli_lagan_box.bdr-black, .kundli_lagan_chart .choose_services_col-6 .kundli_lagan_box.bdr-black {
+     border-collapse: inherit;
+}
+ .choose_services_row:first-child .choose_services_col-3 .kundli_lagan_box.bdr-black {
+     position: relative;
+}
+ .kundli_lagan_chart .choose_services_row:first-child .choose_services_col-3:nth-child(2) .kundli_lagan_box .kundli_lagan_box_content, .kundli_lagan_chart .choose_services_row:first-child .choose_services_col-3:nth-child(3) .kundli_lagan_box .kundli_lagan_box_content, .kundli_lagan_chart .choose_services_row:nth-child(4) .choose_services_col-3:nth-child(2) .kundli_lagan_box .kundli_lagan_box_content, .kundli_lagan_chart .choose_services_row:nth-child(4) .choose_services_col-3:nth-child(3) .kundli_lagan_box .kundli_lagan_box_content {
+     border-left: none !important;
+}
+ .kundli_lagan_chart .choose_services_row:first-child .choose_services_col-3:nth-child(3) .kundli_lagan_box .kundli_lagan_box_content, .kundli_lagan_chart .choose_services_row:nth-child(4) .choose_services_col-3:nth-child(3) .kundli_lagan_box .kundli_lagan_box_content {
+     border-right: none !important;
+}
+ .drop_lagan_chart {
+     height: 43%;
+     width: 50%;
+     position: absolute;
+     top: 21%;
+     left: 50%;
+     transform: translate(-50%);
+     display: table;
+     z-index: 5;
+}
+ .drop_lagan_chart .drop_lagan_chart_content {
+     display: table-cell;
+     vertical-align: middle;
+     position: relative;
+}
+ .drop_lagan_chart_content {
+     position: absolute;
+     bottom: 0px;
+     left: 50%;
+     transform: translatex(-50%);
+     width: 100%;
+}
+ .lagan_chart_birth.display_block .drop_lagan_chart_content {
+     left: calc(100% - 230px);
+}
+ .chart_content_menu li {
+     display: block;
+     margin: 10px 0px;
+     transition: all 0.4s ease;
+}
+ .chart_content_menu {
+     background: var(--white);
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.35);
+}
+ ul.chart_content_menu {
+     padding: 20px 40px;
+     width: 120%;
+     position: absolute;
+     left: -20px;
+}
+ ul.chart_content_menu li:hover >a {
+     color: var(--blue);
+     font-weight: 700;
+}
+ .drop_lagan_chart_content .chart_content_menu, .lagan_chart_birth {
+     display: none;
+}
+ .astro_col-12 {
+     width: 100%;
+     display: inline-block;
+}
+ .lagan_chart_tabs_main_data, .lagan_chart_birth .lagan_chart_birth_title, .lagan_chart_birth_title,.aquarius_sign_data {
+     /* padding: 0px 15px; */
+}
+ .kundli_lagan_box_content {
+     position: relative;
+}
+ .choose_services_row .choose_services_col-3 .kundli_lagan_box_content.text_center {
+     border: 1px solid black;
+}
+ .astro_col-10 {
+     display: inline-block;
+     width: 83.333333%;
+}
+ .dashas_dosh {
+     border: 1px solid var(--greyda);
+     box-sizing: border-box;
+     border-radius: 8px;
+}
+ .dashas_dosh_content p span:last-child {
+     margin-left: 10px;
+}
+ .astro_col-10 .dashas_dosh_content {
+     max-width: calc(100% - 130px);
+}
+ .dashas_group .choose_services_row {
+     margin-bottom: 15px;
+}
+ .dashas_dosh_content p {
+     margin-bottom: 0px;
+}
+ table.mahadasha_table_data tbody tr td {
+     position: relative;
+}
+ table.mahadasha_table_data tbody tr td:nth-child(2):before {
+     content: "";
+     position: absolute;
+     right: 30px;
+     border-left: 8px solid var(--greyda);
+     border-bottom: 8px solid transparent;
+     border-top: 8px solid transparent;
+     border-right: 8px solid transparent;
+     top: 50%;
+     transform: translatey(-50%);
+}
+ table.mahadasha_table_data tbody tr:hover td {
+     background-color: var(--greye9);
+}
+ .mahadasha_hover {
+     position: absolute;
+     background: var(--white);
+     box-shadow: 0px 4px 22px rgb(0 0 0 / 35%);
+     top: -38px;
+     left: 38%;
+     width: 41.666667%;
+}
+ .mahadasha_hover table {
+     border: 1px solid var(--grey98);
+     border-radius: 5px 0px 0px 0px;
+}
+ .mahadasha_hover {
+     display: none;
+}
+ .mahadasha_table_data tbody tr.active td {
+     background-color: var(--greye9);
+}
+ .lagan_chart_birth_table.mahadasha_hover table.lagan_birth_table_data.mahadasha_hover_data {
+     margin-bottom: 0px;
+}
+ .astro_content_sub_tab_main[data_content="4"] {
+     margin-top: 88px;
+}
+ section.choose_services.kundli_sec ul.chart_content_menu {
+     margin-top: 20px;
+     width: 400px;
+     left: 50% !important;
+     transform: translatex(-50%);
+     margin-left: 0px;
+}
+ section.choose_services.kundli_sec ul.chart_content_menu li a {
+     font-size: 16px;
+}
+ section.choose_services.kundli_sec .astro_box_vedic_kundli .lagan_chart_tabs_main {
+     margin-top: -40px;
+}
+/*------------------|| Kundli End ||---------------------*/
+/*------------------|| Maching Start ||---------------------*/
+ .maching_data_vedic .choose_services_row .astro_col-5:nth-child(2) {
+     float: right;
+}
+ .maching_data_vedic .maching_data_form .maching_data_form_login h4 {
+     margin-bottom: 20px;
+}
+ .maching_vedic .choose_services_row .maching_data_vedic .indian_maching a {
+     text-decoration: none;
+     padding: 8px 12px;
+     color: var(--blue);
+     background: rgba(0, 123, 255, 0.08);
+     border: 1px solid rgba(0, 123, 255, 0.3);
+     box-sizing: border-box;
+     border-radius: 8px;
+     float: right;
+}
+ .maching_vedic .choose_services_row .maching_data_vedic .indian_maching a.active {
+     color: var(--white);
+     background: var(--blue);
+}
+ .maching_vedic .choose_services_row .astro_col-6:nth-child(2) .indian_maching a {
+     float: left;
+}
+ .indian_maching_data {
+     margin-bottom: 20px;
+}
+ .match_details .match_title {
+     padding: 0px 15px;
+}
+ .astro_col-9 {
+     width: 75%;
+     display: inline-block;
+}
+ .maching_table table.maching_table_data tbody tr:last-child {
+     background: var(--greye9);
+}
+ .maching_info {
+     position: absolute;
+     top: 40%;
+     width: 24.75%;
+     transform: translatey(-50%);
+}
+ .compare_data_button ul.astro_content_menu,.maching_data_menu {
+     justify-content: center;
+}
+ .maching_data_menu {
+     margin-bottom: 0px;
+}
+ .aquarius_content span p {
+     margin: 3px 0px 3px 15px;
+}
+ .aquarius_part{
+     margin-right:30px;
+}
+ .panchang_aquarius .panchang_timing_details:nth-child(2) .panchang_table_data tbody tr:last-child td{
+     text-align: center;
+}
+/*------------------|| Maching End ||---------------------*/
+/*------------------|| Retro Start ||---------------------*/
+ .retro_planites .retro_planites_box p {
+     height: 90px;
+     overflow-y: auto;
+     margin-bottom: 0px;
+}
+ .retro_planites_box p::-webkit-scrollbar,.retro_planites_box p::-webkit-scrollbar,.Numerology_vedic_content p::-webkit-scrollbar {
+     width: 0px;
+}
+ .retro_planites_box p::-webkit-scrollbar-thumb,.retro_planites_box p::-webkit-scrollbar-thumb,.Numerology_vedic_content p::-webkit-scrollbar-thumb {
+     background: transparent;
+     border: 1px solid transparent;
+}
+ .planites {
+     position: absolute;
+     top: -50px;
+     display: flex;
+     left: 10px;
+}
+ .retro_planites .choose_services_row .astro_col-6 .retro_planites_box .planites span{
+     padding-top: 20px;
+}
+ .astro_col-8{
+     /* width:66.666667%; */
+     /* display: inline-block; */
+}
+ .astro_col-4{
+}
+ .kundli_vedic_form form .astro_col-8 .kundli_vedic_group{
+     /* margin-right: 30px; */
+}
+ .kundli_vedic{
+     border-radius: 8px;
+}
+/*------------------|| Retro End ||---------------------*/
+/*------------------|| Numerology Start ||---------------------*/
+ .numerology_vedic .choose_services_row .astro_col-5:nth-child(2) .kundli_vedic{
+     border-radius: 12px;
+}
+ .Numerology_vedic_number{
+     margin-top: 30px;
+}
+ .Numerology_vedic_number span{
+     position: relative;
+     top: -8px;
+}
+ .Numerology_count_number {
+     /* margin-top: 30px; */
+}
+ .Numerology_count_number .Numerology_count_number_box .daily_horoscope_circle{
+     background-image: none !important;
+}
+ .Numerology_count_number .Numerology_count_number_box .daily_horoscope_circle_content {
+     padding: 0px;
+}
+ .Numerology_count_number .Numerology_count_number_box .daily_horoscope_circle_content h4 {
+     line-height: 38px;
+}
+/*------------------|| Numerology End ||---------------------*/
+/*------------------|| Horoscope css Start ||------------------------*/
+ .m_0 {
+     margin: 0px !important;
+}
+ body {
+     background: var(--white) !important;
+}
+ section.horoscope {
+     padding-top: 0px;
+     max-width: 100%;
+}
+section.horoscope .choose_services_title h2, .choose_services_title h2 {
+    display: flex;
+    align-items: baseline;
+}
+ section.horoscope .choose_services_title h2 span img,.choose_services_title h2 span img {display: block;}
+ section.horoscope ul.astro_content_menu, section.horoscope ul.astro_content_menu li, section.horoscope ul.astro_content_sub_menu, section.horoscope ul.astro_content_sub_menu li {
+     margin-left: 0px;
+}
+ section.horoscope ul.astro_content_sub_menu {
+     margin: 0px;
+}
+ section.horoscope .astro_content_sub_tab {
+     padding-top: 0px;
+}
+ section.horoscope ul.astro_content_sub_menu {
+     margin-bottom: 10px;
+}
+ section.horoscope .daily_horoscope_circle_content h4{
+     line-height:0px;
+}
+ section.horoscope .daily_horoscope_circle_content {
+     padding: 0px;
+     position: absolute;
+     top: 45%;
+     left: 50%;
+     transform: translate(-50%);
+}
+ section.horoscope .daily_horoscope_circle{
+     position:relative;
+}
+ section.horoscope .daily_content_right {
+     padding: 10px 10px 10px 15px;
+}
+ section.horoscope .zodic_sign {
+     padding-right: 0px;
+}
+ section.horoscope .daily_horoscope_box {
+     padding: 8px 14px;
+     height: auto;
+     width: 100%;
+}
+ section.horoscope .zodics_icon img {
+     width: 53px;
+     height: 53px;
+}
+ section.horoscope .daily_content_right p {
+     margin-bottom: 0px !important;
+     overflow-y: auto;
+     height: 60px;
+}
+ section.horoscope .daily_content_right p, section.horoscope .zodics_content p {
+     font-size: 12px;
+}
+ section.choose_services .choose_services_col_box .astro_logo.text_center img {
+     margin: 0 auto;
+}
+ section.horoscope .daily_content_right p{
+     font-size:13px;
+}
+ .daily_content_right p::-webkit-scrollbar {
+     width: 5px;
+}
+ .daily_content_right p::-webkit-scrollbar-thumb,.daily_content_right p::-webkit-scrollbar-thumb {
+     background: transparent;
+     border-radius: 10px;
+}
+ section.choose_services .choose_services_box_content .choose_services_col_box.active {
+     border: 2px solid var(--blue);
+     box-shadow: 0px 12px 24px -12px rgb(0 123 255 / 35%);
+     transform: scale(1);
+     background: var(--white) !important;
+}
+ section.horoscope .daily_horoscope_box .daily_content_right{
+     display: table;
+     height: 100%;
+}
+ section.horoscope .daily_horoscope_box .daily_content_right .daily_content_right_center {
+     display: table-cell;
+     vertical-align: middle;
+}
+/*------------------|| Horoscope css End ||------------------------*/
+/*------------------|| Kundli css Start ||------------------------*/
+ .kundli_vedic_group label {
+     text-transform: capitalize;
+}
+ .choose_services.kundli_sec ul.astro_content_menu {
+     margin: 46px 0px 0px 0px !important;
+}
+ .choose_services.kundli_sec.matching_sec ul.astro_content_menu {
+     margin: 0px !important;
+}
+ .kundli_sec ul.astro_content_menu li {
+     margin-left: 0px !important;
+}
+ .kundli_vedic_login_form .kundli_vedic_group input,.kundli_vedic_login_form .kundli_vedic_group select {
+     text-transform: capitalize;
+     border: 1px solid var(--greyda);
+     padding: .375rem .75rem;
+}
+ .astro_box_vedic_kundli .choose_services_row .astro_col-5:nth-child(2) {
+}
+ .astro_box_vedic_kundli .lagan_chart_tabs_main {
+     margin-top: -70px;
+}
+ .lagan_chart_birth_table table.lagan_birth_table_data{
+     border:1px;
+     margin-top: 0px;
+}
+ .lagan_chart_birth_table table.lagan_birth_table_data th,.lagan_chart_birth_table table.lagan_birth_table_data td {
+     border-color: var(--grey98);
+}
+ .kundli_vedic_login_form .kundli_vedic_group input[type="date"] {
+     text-transform: lowercase;
+}
+.kundli_vedic_login_form .kundli_vedic_group input[type="submit"], .kundli_vedic_login_form .kundli_vedic_group input[type="button"] {
+    background: var(--blue) !important;
+    border-radius: 4px;
+    color: var(--white) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: fit-content;
+    margin-left: auto;
+    display: block;
+    font-weight: 400;
+    transition: all 0.3s;
+    min-width: 90px;
+}
+.kundli_vedic_login_form .kundli_vedic_group input[type="submit"]:hover, .kundli_vedic_login_form .kundli_vedic_group input[type="button"]:hover {
+    background-color: #227fc0 !important;
+}
+ .kundli_vedic_login_form .kundli_vedic_group:nth-child(4) {
+     margin-bottom: 0px;
+}
+ .kundli_lagan_chart svg {
+     transform: scale(0.82);
+     
+}
+ .choose_services.kundli_sec .kundli_lagan_chart svg,.matching_sec .astro_box_vedic_kundli .astro_col-6:nth-child(2) .kundli_lagan_chart svg {
+     left: 9%;
+}
+ .drop_lagan_chart_content {
+     position: absolute;
+     bottom: 30px;
+     left: 60%;
+}
+ .astro_box_vedic_kundli .choose_services_row {
+     position: relative;
+     z-index: 1;
+}
+ .astro_box_vedic_kundli .kundli_lagan_chart {
+     position: relative;
+     top: -46px;
+     right: 0px;
+     height: 500px;
+     float: right;
+}
+ .lagan_chart_tabs_main {
+     z-index: 5;
+     position: relative;
+}
+/* .lagan_chart_birth_table {
+     overflow-x: auto;
+}*/
+ .lagan_chart_birth[data-lagan-content="planets"] table.lagan_birth_table_data{
+     max-width:900px;
+}
+ .lagan_chart_birth.dashas {
+     margin-bottom: 40px;
+}
+ .dashas_group .dashas_dosh .choose_services_row {
+     margin-bottom: 0px !important;
+}
+ .astro_box_vedic_kundli .kundli_lagan_chart {
+     width: 500px;
+}
+/*------------------|| Kundli css Start ||------------------------*/
+/*------------------|| Kundli Hover End ||------------------------*/
+ .kundli_vedic.panchang_vedic{
+     margin-bottom: 47px;
+}
+ .aquarius_sign .lagan_chart_birth_title h2,.panchang_timing_details.panchang_day_details .lagan_chart_birth_title h4 {
+     margin-top: 0px;
+}
+ table.lagan_birth_table_data.panchang_table_data {
+     margin-bottom: 30px;
+}
+ .aquarius_part.d_flex .aquarius_content:first-child {
+     margin-right: 12px;
+}
+ .lagan_chart_birth.mahadashas_antradashas {
+     position: relative;
+     z-index: 3;
+}
+ .lagan_chart_birth.ashtakvarga{
+     z-index: 2;
+     position: relative;
+}
+ .aquarius_part:last-child {
+     margin-right: 0px;
+}
+ .panchang_timing_details.panchang_day_details .panchang_table table.lagan_birth_table_data.panchang_table_data tbody tr:nth-last-of-type(2) td {
+     text-align: center;
+}
+ .kundli_vedic.panchang_vedic .kundli_vedic_group:nth-child(3) {
+     margin-bottom: 0px;
+}
+/*------------------|| Kundli Hover End ||------------------------*/
+/*------------------|| Retero Start ||------------------------*/
+ .astro_box_vedic_kundli.retro_vedic .retro_planites .choose_services_row {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 70px 30px;
+     margin: 70px 0px 0px;
+}
+ .astro_box_vedic_kundli.retro_vedic .retro_planites .astro_col-6 {
+     display: table;
+     width: 100%;
+     height:100%;
+}
+ .astro_box_vedic_kundli.retro_vedic .retro_planites {
+     margin: 30px 0px 47px 0px;
+}
+ .kundli_vedic.retro_vedic_data .kundli_vedic_form .kundli_vedic_group:last-child {
+     margin-bottom: 0px;
+}
+ .aquarius_part.d_flex:nth-child(1) .aquarius_content:nth-child(2), .aquarius_part.d_flex:nth-child(2) .aquarius_content:nth-child(2) {
+     width: 72px;
+}
+ .retro_planites_box {
+     display: table-cell;
+     padding: 60px 60px 40px 60px;
+ }
+/*------------------|| Retro End ||------------------------*/
+/*------------------|| Numberology css Start ||------------------------*/
+ .kundli_vedic_form.Numerology_vedic_form .kundli_vedic_group:nth-child(3) {
+     margin-bottom: 0px;
+}
+ .lagan_chart_birth_title h4 {
+     margin-top: 0px;
+}
+ .astro_box_vedic_kundli.numerology_vedic .choose_services_row .astro_col-5:nth-child(2) {
+     width: 41.666667%;
+}
+ .fs-10 {
+     font-size: 12px !important;
+}
+ .Numerology_count_number {
+     /* margin-top: 40px; */
+}
+ .astro_box_vedic_kundli.numerology_vedic .astro_col-5:first-child {
+     margin-bottom: 8px;
+}
+ .Numerology_count_number_box .astro_col-6 {
+     margin-bottom: 35px;
+}
+ .Numerology_count_number_box .daily_horoscope_box_main {
+     min-height: 105px !important;
+}
+ .Numerology_count_number_box .daily_horoscope_box_main .daily_content_right p {
+     margin-bottom: 0px;
+     height: 54px;
+     overflow-y: scroll;
+}
+ .Numerology_count_number .lagan_chart_birth_title h4 {
+     margin-top: 0px !important;
+}
+ .Numerology_count_number_box .daily_horoscope_box {
+     padding: 25px 14px;
+}
+ .Numerology_count_number_box .daily_horoscope_circle {
+     width: 50px;
+     position: relative;
+     top: 50%;
+     transform: translatey(-50%);
+}
+ .Numerology_count_number_box .daily_horoscope_box{
+     position:relative;
+}
+ .numerology_sec .daily_horoscope_box_main .daily_horoscope_circle {
+     display: table;
+     height: 100%;
+}
+ .numerology_sec .daily_horoscope_box_main .daily_horoscope_circle_content {
+     display: table-cell;
+     vertical-align: middle;
+}
+ .Numerology_vedic_number.text_center {
+     padding-bottom: 40px;
+}
+ .Numerology_vedic_content p {
+     height: 72px;
+     overflow-y: scroll;
+}
+/*------------------|| Numberology css End ||------------------------*/
+/*------------------|| pachange Moon css Start ||------------------------*/
+ .panchang__moon_sec .astro_box_vedic_kundli.panchang__moon_calendar_vedic {
+     margin-bottom: 0px;
+     padding-bottom: 7px;
+}
+ .panchang__moon_sec .kundli_vedic.panchang__moon_calendar_vedic_data .kundli_vedic_group:nth-child(3) {
+     margin-bottom: 0px;
+}
+ .panchang__moon_sec table.lagan_birth_table_data.panchang_moon_data {
+     margin-bottom: 30px !important;
+}
+ sectiosection#service-panchang table.lagan_birth_table_data.panchang_table_data {
+     margin-bottom: 35px;
+}
+/*------------------|| Panchang Moon css End ||------------------------*/
+/*------------------|| matching section ||---------------------*/
+ .kundli_sec.matching_sec .matching_loader_section img#matching-loader {
+     width: 27px;
+     text-align: center;
+     margin: auto;
+     display: none;
+}
+ .kundli_sec.matching_sec .matching_loader_section {
+     width: 100%;
+}
+ section.matching_sec .match_title h4 {
+     margin-top: 0px !important;
+}
+ section.matching_sec .astro_box_vedic_kundli .lagan_chart_tabs_main {
+     margin-top: 0px;
+}
+ section.matching_sec .maching_data_main_tab.maching_data_girl_tab {
+     margin-bottom: 40px;
+}
+ section.matching_sec .kundli_vedic.maching_data_vedic {
+     margin-bottom: 39px;
+}
+ .kundli_vedic.panchang_vedic {
+     margin-bottom: 46px;
+}
+ .astro_box_vedic_kundli.retro_vedic .retro_planites {
+     margin: 30px 0px 46px 0px;
+}
+ .Numerology_count_number {
+     /* margin-top: 38px; */
+}
+ .match_title {
+     padding: 0px 15px;
+}
+ .matching_sec .astro_box_vedic_kundli .kundli_lagan_chart {
+     position: relative;
+     top: -45px;
+     right: 0px;
+     height: 500px;
+}
+ .maching_data_main_tab.maching_data_girl_tab .lagan_chart_birth_title h4 {
+     margin-top: 0px;
+}
+ .kundli_vedic_login_form.maching_data_form_login h4 {
+     margin-bottom: 30px !important;
+}
+ .choose_services_title span,.choose_services_title span a {
+     text-transform: capitalize;
+     display: block;
+}
+ .matching_sec .indian_maching_data {
+     margin: 20px 0px;
+}
+ section.matching_sec .maching_data_main_tab.maching_data_girl_tab {
+     margin-bottom: 0px;
+}
+ .maching_data_main_tab.maching_data_girl_tab {
+     margin: 60px 0px 0px 0px !important;
+}
+ .maching_data_main_tab.maching_data_girl_tab ~ .choose_services_row {
+     margin-bottom: 69px !important;
+     z-index: 0;
+}
+ .maching_data_main_tab.maching_data_boy_tab .drop_lagan_chart_content {
+     bottom: 30px;
+     position: absolute;
+     right: calc(0% - 0px);
+     transform: translatex(-50%);
+     text-align: center;
+}
+ .maching_data_main_tab.maching_data_boy_tab .vedicastro-chart-img-dropdown.vedicastro-boy-chart, .maching_data_main_tab.maching_data_boy_tab .vedicastro-chart-img-dropdown.vedicastro-girl-chart{
+     left: calc(30% - 175px) !important;
+     width: 100%;
+     bottom: 0px !important;
+     position: absolute !important;
+}
+ section.choose_services.kundli_sec.matching_sec .astro_box_vedic_kundli .lagan_chart_tabs_main {
+     margin-top: 0px;
+}
+ .maching_data_main_tab.maching_data_boy_tab .astro_col-6 {
+     position: relative;
+}
+ .fs-12 {
+     font-size: 14px !important;
+}
+/*------------------|| matching section ||---------------------*/
+/*------------------|| section ||---------------------*/
+ .choose_services.kundli_sec.matching_sec .astro_col-6:nth-child(1) .kundli_lagan_chart svg {
+     left: calc(0px - 45px);
+}
+ .matching_sec .astro_box_vedic_kundli .astro_col-6:nth-child(1) .kundli_lagan_chart {
+     float: left;
+}
+ table.lagan_birth_table_data.mahadasha_table_data {
+     margin-bottom: 0px !important;
+}
+ .choose_services .choose_services_col_box {
+     margin-bottom: 39px;
+}
+ div.chart-wrapper select {
+     font-size: 18px;
+     border: none;
+     appearance: none !important;
+     outline: none;
+     webkit-apperance: none !important;
+     padding: 0px 20px;
+     opacity: 0;
+     position: absolute;
+     left: 50%;
+     transform: translatex(-50%);
+     top: 38px;
+     max-width: 320px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     cursor: pointer;
+}
+ div.chart-wrapper label {
+     position: absolute;
+     left: 50%;
+     transform: translatex(-50%);
+     color: var(--blue);
+     cursor: pointer;
+     text-decoration: underline;
+}
+ .maching_data_main_tab.maching_data_boy_tab {
+     margin-bottom: -20px;
+}
+ .choose_services.kundli_sec .lagan_chart_birth.mahadashas_antradashas.display_block {
+     margin-bottom: 36px;
+}
+ .vedicastro-lagan-chart-content,.drop_lagan_chart_content {
+     position: absolute;
+     bottom: 20px;
+     right: calc(0% - 0px);
+     transform: translatex(-50%);
+}
+ .drop_lagan_chart_content {
+     bottom: 30px;
+}
+ .vedicastro-lagan-chart-content[data-section="vedicastro-boychart-name"], .vedicastro-lagan-chart-content[data-section="vedicastro-girlchart-name"] {
+     left: calc(0% + 225px) !important;
+     text-align: center;
+     bottom: 10px;
+}
+ .vedicastro-lagan-chart-content p , .vedicastro-lagan-chart-contents p {
+     margin-bottom: 5px !important;
+}
+ .vedicastro-lagan-chart-content a , .vedicastro-lagan-chart-contents a{
+     color: var(--blue);
+     font-size: 18px;
+         padding-left: 134px;
+
+}
+
+ section.choose_services.kundli_sec #hora_data {
+     margin-top: 30px;
+}
+}
+ .vedicastro-lagan-chart-content[data-section="vedicastro-kundli-section"] {
+     bottom: 10px !important;
+}
+ section.choose_services.kundli_sec .astro_content_tabs.lagan_chart_tabs_main_data {
+     margin: 10px 0px;
+}
+ .dashas_dosh .dashas_dosh_content p span:first-child {
+     margin-left: 0px !important;
+}
+/*------------------|| section ||---------------------*/
+/*------------------|| Circle Css Start ||---------------------*/
+ section.horoscope .daily_horoscope_box_main .daily_horoscope_circle_box .c100 span {
+     font-size: 20px !important;
+     font-weight: 600 !important;
+}
+ section.horoscope .daily_horoscope_box_main .daily_horoscope_circle_box .c100 span > p {
+     font-size: 11px !important;
+     font-weight: 400 !important;
+     margin-bottom: 0px !important;
+}
+ .daily_horoscope_circle_box .c100 {
+     font-size: 75px;
+     position: absolute;
+     top: 50%;
+     transform: translatey(-50%);
+}
+ .daily_horoscope_box_main .daily_horoscope_circle_box .c100 {
+     font-size: 75px;
+}
+ section.horoscope .daily_horoscope_box {
+     min-height: 105px;
+     position: relative;
+}
+ section.horoscope .daily_horoscope_box {
+     padding: 8px 14px;
+}
+ .daily_horoscope_box_main .daily_horoscope_circle_box .c100 {
+     font-size: 80px;
+}
+ section.horoscope .daily_horoscope_box_main .daily_horoscope_circle_box .c100 span > p {
+     font-size: 9px !important;
+     margin-bottom: 0px !important;
+}
+ .kundli-error{
+     border: 1px solid var(--grey2c) !important 
+}
+ .kundli-loader-hide{
+     display: none;
+}
+ .kundli_vedic_login_form .kundli_vedic_group input.kundli-error {
+     border-color: red !important;
+}
+ .kundli_vedic_login_form .kundli_vedic_group:last-child input[type="submit"] {
+     /* max-width: fit-content; */
+     /* background: var(--blue) !important; */
+     /* color: var(--white) !important; */
+     /* padding: 0.375rem 0.75rem !important; */
+}
+ .kundli_vedic_login_form .kundli_vedic_group{
+     position:relative;
+}
+ .kundli_vedic_login_form .kundli_vedic_group img {
+     position: absolute;
+     width: 18px;
+     top: 50%;
+     right: 6px;
+     transform: translatey(-50%);
+}
+ .pac-container.pac-logo {
+     padding: 15px 20px !important;
+}
+ .astro_col-6.vedicastro-horoscope-daily .fill, .astro_col-6.vedicastro-horoscope-daily .bar {
+     border: 9px solid var(--greybb);
+     height: 71px;
+     width: 71px;
+}
+ .c100 .slice {
+     position: absolute;
+     width: 92px;
+     height: 92px;
+     clip: rect(0em, 1em, 1em, 0.5em);
+}
+ .astro_col-6.vedicastro-horoscope-daily .daily_horoscope_box_main .daily_horoscope_circle_box .c100 {
+     font-size: 88px;
+}
+ .astro_col-6.vedicastro-horoscope-daily .daily_horoscope_box_main .c100:after {
+     position: absolute;
+     top: 3.08em;
+     left: -15.92em;
+}
+ .astro_col-6.vedicastro-horoscope-daily .daily_horoscope_box_main {
+     border: 3px solid var(--greyce);
+}
+ section.horoscope .daily_content_right p {
+     height: 54px;
+}
+ section.horoscope .daily_content_right p {
+     height: 55px;
+}
+ @media (max-width: 480px){
+     section.horoscope .prl-40 {
+         padding: 0px 0px !important;
+    }
+     section.horoscope .daily_horoscope_box {
+         min-height: 105px !important;
+    }
+     section.horoscope .daily_content_right {
+         width: calc(100% - 85px) !important;
+    }
+}
+/*------------------|| Circle Css End ||---------------------*/
+/*-------------------- || Product Loder Start || ---------------*/
+ .Preloader {
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     height: 100vh;
+     z-index: 999999999999999;
+     transition: 1s;
+     background-color: rgb(0 30 51 / 70%);
+     padding:0px !important;
+}
+ .Preloader .loader_center{
+     display: table-cell;
+     vertical-align: middle;
+}
+ .Preloader .LoaderSection {
+     display: table;
+     height: 100%;
+     width: 100%;
+}
+ .Preloader .loader {
+     background: transparent;
+     position: relative;
+     width: 146px;
+     overflow: hidden;
+     margin: 0 auto;
+     text-align: center;
+}
+ .Preloader .status {
+     text-align: center;
+     font-size: 20px;
+     color: var(--white);
+}
+/*-------------------- || Product Loder End || ---------------*/
+ .kundli_vedic_group.language_match {
+     width: 50%;
+     margin-left: 25%;
+}
+ .kundli_vedic_group.stylenorth {
+     width: 76%;
+     margin-left: 23px;
+}
+ .kundli_vedic_group.stylensouth {
+     width: 91%;
+     margin-left: 23px;
+}
+ .northsouth {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     width: 100%;
+}
+ .horoscope .kundli_vedic_group {
+     margin-left: auto;
+}
+ .astro_content_sub_tab_main.display_block {
+     margin-top: 23px;
+}
+ .location_list {
+     display: none;
+     position: absolute !important;
+     top: 100%;
+     background-color: var(--white);
+     z-index: 1;
+     width: 100%;
+     left: 0px;
+     box-sizing: border-box;
+     padding: 0px;
+     margin: 0px;
+}
+ .location_list li {
+     list-style: none;
+     color: var(--black);
+     display: block;
+     font-size: 14px;
+     cursor: pointer;
+     padding: 8px;
+     transition: all 0.3s;
+}
+ .location_list li:hover {
+     background: var(--blue);
+     color: var(--white);
+}
+ .dashas_dosh_content li.fs-14.lh-20.fw-400 {
+     list-style: none;
+}
+ .prediction_grid{
+     display: grid !important;
+     grid-template-columns: repeat(2,1fr) !important;
+     grid-gap: 20px !important;
+}
+ .astor_tab_grid {
+     display: grid !important;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 30px;
+}
+ p.clr-black1.fs-16.lh-24.fw-400 {
+     padding-top: 65px;
+}
+ .tithi {
+     display: flex !important;
+     justify-content: space-between;
+     grid-gap: 10px;
+     align-items: center;
+}
+ .date {
+     display:flex !important;
+     justify-content: space-between;
+}
+ table.calender tr {
+    display: block;
+    border: 1px solid var(--grey98);
+}
+ table.calender td {
+     display: block;
+     padding: 0.75rem;
+     vertical-align: top;
+     margin: 0px;
+     height: 190px;
+     border-bottom: 1px solid var(--grey98);
+}
+ .moon .tithi{
+     grid-gap: 6px;
+}
+/*-------------------- || Rajat Calendar Start || ---------------*/
+ .choose_services {
+     max-width: 100% !important;
+}
+ .panchang__moon_sec {
+     font-size: 0px;
+}
+ .panchang__moon_sec table * {
+     font-size: 14px !important;
+     line-height: initial;
+}
+ .kundli_vedic_login_form {
+     padding: 20px;
+     display: grid;
+     grid-gap: 15px;
+}
+ .kundli_vedic_group {
+     display: flex;
+     flex-flow: wrap;
+     grid-gap: 10px 15px;
+}
+ body .kundli_vedic_group select {
+     background-image: url(../images/icon/drop.png);
+     background-repeat: no-repeat;
+     background-size: 15px;
+     background-position: calc(100% - 10px) 50%;
+     padding-right: 35px !important;
+     appearance: none;
+}
+ table.calender .moon p ,table.calender td p{
+     margin: 0px;
+}
+table.calender {
+    border-collapse: collapse;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border: unset;
+}
+ table.calender .moon p {
+     margin: 0px;
+}
+ table.calender tbody tr:first-child td {
+     font-size: 0px !important;
+     position: relative;
+     background: var(--grey57);
+     color: var(--white);
+     text-align: center;
+     display: block;
+     width: 100%;
+}
+table.calender tbody tr:first-child td::before {
+    font-size: 16px;
+    transform: rotate(-90deg);
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: -28px;
+    width: 100px;
+}
+ table.calender tbody tr:first-child td:first-child::before {
+     content: "Sunday";
+}
+ table.calender tbody tr:first-child td:nth-child(2)::before {
+     content: "Monday";
+}
+ table.calender tbody tr:first-child td:nth-child(3)::before {
+     content: "Tuesday";
+}
+ table.calender tbody tr:first-child td:nth-child(4)::before {
+     content: "Wednesday";
+}
+ table.calender tbody tr:first-child td:nth-child(5)::before {
+     content: "Thursday";
+}
+ table.calender tbody tr:first-child td:nth-child(6)::before {
+     content: "Friday";
+}
+ table.calender tbody tr:first-child td:nth-child(7)::before {
+     content: "Satuarday";
+}
+table.calender tbody {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: calc(100% - 43px);
+    margin-left: auto;
+    overflow: auto;
+}
+ table.calender tr:first-child {
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     display: block;
+     width: 46px;
+}
+ table.calender tr:nth-child(7) td {
+     position: absolute;
+     top: 0px;
+     left: 47px;
+     width: calc(20% - 36px);
+}
+ table.calender td {
+     border-right-width: 0px;
+     display: grid;
+     align-items: center;
+}
+ table.calender tr:last-child td {
+     border-right-width: 1px;
+}
+ table.calender tr {
+     border-left: unset;
+}
+ table.calender tbody tr td:nth-child(7) {
+     border: unset;
+}
+ table.calender .moon > p {
+     color: var(--grey45);
+}
+ table.calender .moon_shape p {
+     color: var(--grey);
+     font-weight: 500;
+     font-size: 16px;
+}
+ table.calender .tithi p,.moon .tithi + div p {
+     font-size: 12px;
+}
+ .panchang__moon_sec .aquarius_sign,.moon_calendar_sec .aquarius_sign {
+     overflow: auto;
+}
+ div#panchang-monthly-data .tithi p:first-child,div#panchang-monthly-data .tithi p:first-child * {
+     color: var(--grey) !important;
+     font-size: 16px !important;
+     font-weight: 500;
+}
+ div#panchang-monthly-data .date p:nth-child(2) {
+     color: var(--black) !important;
+     font-size: 32px !important;
+     font-weight: 600;
+     font-family: 'IBM Plex Sans', sans-serif;
+     display: block;
+}
+ div#panchang-monthly-data .date p:nth-child(2) span {
+     display: block;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 12px;
+}
+ div#panchang-monthly-data .date {
+     align-items: center !important;
+     margin-top: 0px;
+}
+ div#panchang-monthly-data .tithi p:nth-child(2) {
+     color: var(--black);
+     font-size: 12px;
+}
+ .lagan_chart_birth_title h4 {
+     margin: 0px 0px 21.6px;
+     font-family: 'Poppins';
+}
+ .panchang__moon_calendar_vedic .lagan_chart_birth_title {
+     padding: 0px;
+}
+ div#panchang-monthly-data .date p img {
+     max-width: 20px;
+     display: block;
+}
+ .sagitta_box {
+     display: flex;
+     grid-gap: 10px;
+     justify-content: space-between;
+     margin: 10px 0px 0px;
+}
+ .sagitta_box p,div#panchang-monthly-data .date p {
+     display: grid;
+     align-items: center;
+     grid-gap: 5px;
+     grid-template-columns: 15px auto;
+}
+ .tithi_box {
+     display: grid;
+     grid-template-columns: 25px auto;
+     text-align: left;
+     grid-gap: 10px;
+     align-items: center;
+     margin: 6px auto 0px;
+}
+ .tithi_box p * {
+     font-size: 12px !important;
+}
+ .tithi_box p:nth-child(1) {
+     width: 22px;
+     height: 22px;
+     border: 1px solid #6C757D;
+     border-radius: 4px;
+     color: #EB5757;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .moon_img {
+     margin: 4px 0px;
+}
+/*-------------------- || Rajat Calendar End || ---------------*/
+ section {
+     width: 100% !important;
+     max-width: 100% !important;
+}
+ .choose_services_box {
+     padding-top: 15px !important;
+     padding-bottom: 30px !important;
+}
+.astro_box {
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 20px;
+    display: flex;
+}
+ .astro_box .heading_title h2 span:first-child {
+     margin-left: -35px;
+}
+ .custom-select {
+     border: 1px solid #DFDFDF;
+     padding: 8px 20px;
+     display: flex;
+     align-items: center;
+     grid-gap: 4px;
+     max-width: fit-content;
+}
+ .custom-select select {
+     border: unset;
+     outline: unset;
+     padding: 0px 22px 0px 6px;
+     appearance: none;
+     background-image: url(../images/icon/Vector.png);
+     background-size: 14px;
+     background-repeat: no-repeat;
+     background-position: right center;
+     display: block;
+     height: 25px;
+     background-color: transparent;
+}
+form:not(#multi_form_data) .custom-select {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    grid-gap: 4px;
+    max-width: 100%;
+}
+.custom-select select:not(#lang2) {
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 22px 0px 12px;
+    background-position: 96% center;
+    height: 40px;
+    border-radius: 4px;
+}
+ .heading_title * {
+     text-decoration: none;
+}
+ .zodic_sign .choose_services_row {
+     margin-bottom: 30px;
+     margin-top: 20px;
+}
+ section#predictions_data .zodic_sign .choose_services_row {
+     display: grid;
+     grid-template-columns: repeat(12,1fr);
+     grid-gap: 12px 8px;
+}
+ .zodics_icon img {
+     height: 53px;
+}
+ .zodic_sign .zodics_sign_tab.active {
+     background-color: var(--blue);
+}
+ .daily_head {
+     max-width: fit-content;
+     margin-top: 20px;
+}
+ .daily_head p:first-of-type {
+     margin-top: 15px;
+}
+ .daily_head p {
+     padding: 4px 0px;
+     display: flex;
+     align-items: center;
+     grid-gap: 8px;
+     margin: 0px;
+}
+ .daily_head h4 {
+     margin: 15px 0px 0px;
+}
+ .gradient_box {
+     display: grid;
+     grid-template-columns: 137px auto;
+     padding-top: 20px;
+     align-items: center;
+}
+ .gradient_box .gradient_clr {
+     text-align: center;
+     height: 100%;
+     color: #fff;
+     display: grid;
+     align-items: center;
+}
+ .gradient_content {
+     padding: 15px;
+     height: 100%;
+     border-top-right-radius: 6px;
+     border-bottom-right-radius: 6px;
+     min-height: 137px;
+}
+ .gradient_box .gradient_clr span {
+     display: flex;
+     align-items: end;
+     justify-content: center;
+     grid-gap: 4px;
+}
+ .gradient_box .gradient_clr p,.gradient_content p {
+     margin: 0px 0px 0px;
+}
+ .gradient_box .gradient_blue{
+     background: linear-gradient(136.97deg, #4923FF -22.03%, #A521FF 142.13%);
+}
+ .gradient_box .gradient_skyblue{
+     background: linear-gradient(136.97deg, #1A91FF -22.03%, #2FD38E 142.13%);
+}
+ .gradient_box .gradient_gold{
+     background: linear-gradient(136.97deg, #DDCF4F -22.03%, #D3562F 142.13%);
+}
+ .gradient_box .gradient_gold{
+     background: linear-gradient(136.97deg, #DDCF4F -22.03%, #D3562F 142.13%);
+}
+ .gradient_box .gradient_green{
+     background: linear-gradient(136.97deg, #0FC498 -22.03%, #5AD32F 142.13%);
+}
+ .gradient_box .gradient_pink{
+     background: linear-gradient(136.97deg, #DD4F4F -22.03%, #D32FAF 142.13%);
+}
+ .gradient_box .gradient_skyblue{
+     background: linear-gradient(136.97deg, #1A91FF -22.03%, #2FD38E 142.13%);
+}
+ .daily_head .custom-select {
+     border: 1px solid #DFDFDF;
+     padding: 8px 10px 8px 10px;
+     display: flex;
+     align-items: center;
+     grid-gap: 4px;
+}
+ section#choose_services_data .choose_services_row {
+     grid-template-columns: repeat(4,1fr);
+     grid-gap: 30px;
+     display: grid;
+}
+ section#choose_services_data .choose_services_row div {
+     width: 100%;
+     margin: 0px !important;
+}
+section#choose_services_data .astro_box {
+    display: block;
+    margin: 0px;
+}
+ section#choose_services_data .choose_services_col_box {
+     padding: 50px;
+}
+ footer .is-layout-constrained.wp-block-group.alignfull {
+     margin: 0px !important;
+}
+ .heading_title h2 {
+     display: flex;
+     text-transform: capitalize;
+     line-height: inherit;
+}
+ .astro_box .heading_title h2 span:first-child {
+     margin-left: 0px;
+     display: block;
+     height: 34px;
+}
+#form-sade-sati .choose_services_row {
+    display: flex !important;
+}
+#today_img_chart svg{
+        transform: scale(0.70);
+}
+#sade_sati_res_data .text_center{
+    text-align: right;
+    padding: 32px 21px 0px;
+}
+div#today_img_chart {
+    position: absolute;
+    top: 5%;
+    right: 9%;
+}
+#sade-sati-kundli{
+    position: relative;
+}
+#sade_sati_res_data .lagan_chart_birth_title {
+    padding-top: 42px;
+}
+#sade_sati_res_data .dashas_dosh_content li.fs-14.lh-20.fw-400 {
+    list-style: decimal !important;
+}
+.aquarius_sign .lagan_chart_birth_title {
+    margin-top: 30px;
+}
+table.calender {
+    margin-bottom: 0px;
+}
+.panchang__moon_sec .astro_box{
+    display: block;
+}
+section#predictions_data .heading_title {
+    padding: 0px 0 0px 0px;
+}
+.heading_title {
+    padding: 0px 0 30px 0px;
+}
+.astro_box_row {
+    display: grid;
+    grid-template-columns: 41.666667% 50.666667%;
+    grid-gap: 30px;
+    justify-content: space-between;
+}
+/*-----------|| Reponsive Css Start |||-------------*/
+/*----------------|| Numberlogy End ||-----------------------*/
+.numberlogy_box p {
+    display: flex;
+    align-items: end;
+    grid-gap: 10px;
+    margin: 8px 0px;
+}
+.numberlogy_box p + h4 {
+    margin-top: 15px;
+}
+.numberlogy_box .dashas_dosh_content h4 {
+    margin-top: 15px;
+}
+.numberlogy_box .dashas_dosh_content h4:first-child {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.numberlogy_box .dashas_dosh_content h4:first-child + p {
+    margin-top: 10px;
+}
+.numberlogy_grid {
+    margin-top: 26.6px;
+}
+.numberlogy_grid {
+    display: grid;
+    margin-top: 26.600px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.numberlogy_grid .dashas_dosh {
+    margin: 0px;
+}
+.dashas_dosh {
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+.dashas_dosh_content h4 {
+    margin: 0px;
+}
+#choghadiya_data, #hora_data{
+    padding-top: 25px;
+}
+/*----------------|| Numberlogy End ||-----------------------*/
+/*----------------|| Panchang Start ||-----------------------*/
+section#panchang_sec_data .kundli_vedic_login_form .kundli_vedic_group:first-of-type {
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+
+section#panchang_sec_data .kundli_vedic_login_form .kundli_vedic_group .kundli_vedic_group {
+    display: block;
+}
+#kundli-lagan-chart svg {
+    transform: scale(0.80);
+}
+.panchang_group .lagan_chart_birth_title h4 {
+    margin: 21.6px 0px;
+}
+.aquarius_sign_data {
+    grid-gap: 30px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 655px;
+}
+.aquarius_sign_data .aquarius_part:nth-child(5) {
+    grid-column: span 4;
+}
+
+table.lagan_birth_table_data tr td:first-child {
+    background: #F3F5F7;
+}
+.panchang_sec table.lagan_birth_table_data .bg-white {
+    background: #fff !important;
+}table.lagan_birth_table_data tr td:first-child {
+    background: #F3F5F7;
+}
+.panchang_sec table.lagan_birth_table_data .bg-white {
+    background: #fff !important;
+}
+.day_details_table {
+    overflow: auto;
+}
+/*----------------|| Panchang End ||-----------------------*/
+/*----------------|| spinner Start ||-----------------------*/
+@keyframes spinner_box {
+  0% { transform: translate(-50%,-50%) rotate(0deg); }
+  100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+.spinner_box div {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px solid var(--blue);
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.spinner_box div {
+  animation: spinner_box 1s linear infinite;
+  top: 25px;
+  left: 25px;
+}
+.spinner_page {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    background: none;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    display: none;
+}
+.spinner_box {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    transform: translateZ(0) scale(0.51);
+    transform-origin: 0 0;
+}
+.spinner_box div { box-sizing: content-box; }
+/*----------------|| spinner End ||-----------------------*/
+/*----------------|| Retro Start ||-----------------------*/
+ .retro_planites .choose_services_row {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 40px 30px;
+     margin: 40px 0px 0px;
+}
+ .retro_planites_box {
+     display: block;
+     margin-top: 40px;
+     padding: 60px 60px 40px 60px;
+     border: 1px solid #DFDFDF;
+     box-shadow: 0px 4px 20px -8px rgb(46 59 92 / 29%);
+     border-radius: 8px;
+}
+ .retro_planites .retro_planites_box p {
+     overflow-y: auto;
+     margin: 0px;
+     min-height: 50px;
+}
+ .retro_planites_box p::-webkit-scrollbar,.retro_planites_box p::-webkit-scrollbar,.Numerology_vedic_content p::-webkit-scrollbar {
+     width: 0px;
+}
+ .retro_planites_box p::-webkit-scrollbar-thumb,.retro_planites_box p::-webkit-scrollbar-thumb,.Numerology_vedic_content p::-webkit-scrollbar-thumb {
+     background: transparent;
+     border: 1px solid transparent;
+}
+ .planites {
+     position: absolute;
+     top: -50px;
+     display: flex;
+     left: 10px;
+}
+ .retro_planites .choose_services_row .astro_col-6 .retro_planites_box .planites span{
+     padding-top: 20px;
+}
+ .astro_col-8{
+     width:66.666667%;
+     display: inline-block;
+}
+ .astro_col-4{
+     width:33.333333%;
+     display: inline-block;
+}
+ .kundli_vedic_form form .astro_col-8 .kundli_vedic_group{
+     margin-right: 30px;
+}
+ .kundli_vedic{
+     border-radius: 8px;
+}
+section#panchang_sec_data .kundli_vedic_login_form .kundli_vedic_group:first-of-type > div, section#panchang_sec_data .kundli_vedic_login_form .kundli_vedic_group:first-of-type > div > div {
+    width: 100%;
+    margin: 0px !important;
+}
+.moon_calendar_sec .kundli_vedic_login_form,.panchang_calendar_sec .kundli_vedic_login_form {
+    /*padding: 0px;
+    background: transparent !important;
+    display: block;*/
+}
+.astro_select .custom-select {
+    margin-top: 10px;
+}
+.astro-error-response {
+    color: #f00;
+}
+/*----------------|| Retro End ||-----------------------*/
+ @media (max-width: 1200px){
+     .prl-40 {
+         padding: 15px 30px 30px !important;
+    }
+     .fs-40 {
+         font-size: 35px !important;
+    }
+     .astro_box .heading_title h2 span:first-child {
+         margin-left: 0px;
+    }
+     .wp-site-blocks {
+         padding: 0px 10px !important;
+    }
+     section#choose_services_data .choose_services_col_box {
+         padding: 40px;
+    }
+}
+ @media (max-width: 991px){
+     .zodic_sign .choose_services_row {
+         margin-bottom: 30px;
+         margin-top: 20px;
+    }
+     .fs-40 {
+         font-size: 28px !important;
+    }
+     section#predictions_data .zodic_sign .choose_services_row {
+         grid-template-columns: repeat(6,1fr);
+    }
+     .astro_box {
+         padding-bottom: 20px;
+    }
+     .zodics_sign_tab {
+         min-height: 95px;
+         display: grid;
+         align-items: center;
+    }
+     .fs-40 {
+         font-size: 28px !important;
+    }
+     .fs-28 {
+         font-size: 18px !important;
+    }
+     .fs-56 {
+         font-size: 42px !important;
+    }
+     .fs-32 {
+         font-size: 24px !important;
+    }
+}
+ @media(max-width: 850px){
+     section#choose_services_data .choose_services_row {
+         grid-template-columns: repeat(3,1fr);
+    }
+     section#predictions_data .zodic_sign .choose_services_row {
+         margin-bottom: 20px;
+    }
+    .astor_tab_grid,.numberlogy_grid,.astro_box_row{
+         grid-template-columns: repeat(1,1fr);
+     }
+     .kundli_vedic {
+         max-width: fit-content;
+         margin-top: 25px;
+     }
+     .heading_title {
+    padding: 0px 0 10px 0px;
+}
+}
+ @media(max-width: 767px){
+     section#choose_services_data .choose_services_row {
+         grid-template-columns: repeat(2,1fr);
+    }
+     .gradient_left {
+         padding: 10px;
+    }
+     table.calender .moon_shape p,table.calender tbody tr:first-child td::before {
+         font-size: 14px;
+    }
+     .panchang__moon_sec table *,.moon_calendar_sec  table * {
+         font-size: 11px !important;
+    }
+     table.calender .tithi p, .moon .tithi + div p {
+         font-size: 10px;
+    }
+    table.calender td {
+         width: 170px;
+     }
+     table.calender tr:first-child {
+         width: 42px;
+    }
+     div#panchang-monthly-data .date p:nth-child(2) {
+         font-size: 24px !important;
+    }
+     div#panchang-monthly-data .tithi p:first-child,div#panchang-monthly-data .tithi p:first-child * {
+         font-size: 14px !important;
+    }
+     .kundli_vedic_group input, .kundli_vedic_group select {
+         font-size: 14px;
+    }
+     .fs-20 {
+         font-size: 16px !important;
+    }
+    section#panchang_sec_data .kundli_vedic_login_form .kundli_vedic_group:first-of-type {
+         grid-template-columns:repeat(1,1fr);
+     }
+     .aquarius_sign_data {
+         grid-template-columns: repeat(3,1fr);
+     }
+     .aquarius_sign_data .aquarius_part:nth-child(5) {
+         grid-column: span 2;
+     }
+     .retro_planites .choose_services_row {
+         grid-gap: 20px 20px;
+         margin: 40px 0px 0px;
+     }
+    .retro_planites_box {
+    padding: 60px 30px 30px 30px;
+    min-height: 124px;
+}
+     .fs-16, .kundli_vedic_login_form .kundli_vedic_group input, .kundli_vedic_login_form .kundli_vedic_group input[type="submit"], .kundli_vedic_login_form .kundli_vedic_group input[type="button"] {
+         font-size: 14px !important;
+     }
+}
+ @media(max-width: 575px){
+     .gradient_box {
+         grid-template-columns: repeat(1,1fr);
+    }
+    section#choose_services_data .choose_services_row {
+    grid-template-columns: repeat(2,1fr);
+}
+     section#predictions_data .zodic_sign .choose_services_row {
+         grid-template-columns: repeat(4,1fr);
+    }
+     .astro_box {
+         display: grid;
+         padding-bottom: 8px;
+         grid-gap: 10px;
+    }
+     .prl-40 {
+         padding: 15px 20px 20px !important;
+    }
+     .zodics_sign_tab {
+         min-height: auto;
+    }
+     .fs-40 {
+         font-size: 24px !important;
+    }
+     .fs-20 {
+         font-size: 18px !important;
+    }
+     .panchang__moon_sec .astro_box {
+         display: block;
+         margin-bottom: 0px !important;
+     }
+     .fs-14 {
+         font-size: 13px !important;
+     }
+     .fs-32 {
+          font-size: 18px !important;
+     }
+     .panchang__moon_sec .choose_services_box {
+         padding-top: 0px !important;
+         padding-bottom: 0px !important;
+     }
+    .dashas_dosh {
+        padding: 8px 10px;
+   }
+   .aquarius_sign_data {
+         grid-template-columns: repeat(2,1fr);
+     }
+     .aquarius_sign_data .aquarius_part:nth-child(5) {
+         grid-column: span 2;
+     }
+     .kundli_vedic_login_form .kundli_vedic_group input[type="submit"], .kundli_vedic_login_form .kundli_vedic_group input[type="button"]{
+          font-size: 14px;
+     }
+     .prediction_grid, .retro_planites .choose_services_row {
+    grid-template-columns: repeat(1,1fr);
+}
+}
+ @media(max-width: 480px){
+     section#choose_services_data .choose_services_row {
+    grid-template-columns: repeat(1,1fr);
+}
+ }
+ @media(max-width: 375px){
+     section#predictions_data .zodic_sign .choose_services_row {
+         grid-template-columns: repeat(3,1fr);
+    }
+
+}
+/*-----------|| Reponsive Css End |||-------------*/
